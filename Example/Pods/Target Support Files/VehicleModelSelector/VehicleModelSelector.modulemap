@@ -1,0 +1,6 @@
+framework module VehicleModelSelector {
+  umbrella header "VehicleModelSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}

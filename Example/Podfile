@@ -1,12 +1,17 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'VehicleModelSelector_Example' do
+    platform :ios, '10.0'
   pod 'VehicleModelSelector', :path => '../'
-
-  target 'VehicleModelSelector_Tests' do
-    inherit! :search_paths
-
-    pod 'Kiwi'
-  pod 'FBSnapshotTestCase'
-  end
+  # 集成 QMUI 模板
+  pod 'QMUIKit'
+  # 猿题库基于 AFNetworking 封装的网络工具
+  pod 'YTKNetwork'
+  # 集成上／下拉刷新工具
+  pod 'MJRefresh'
+  # 集成 masonry 布局框架
+  pod 'Masonry'
+  # 集成 YYKit 框架
+  pod 'YYKit'
 end
