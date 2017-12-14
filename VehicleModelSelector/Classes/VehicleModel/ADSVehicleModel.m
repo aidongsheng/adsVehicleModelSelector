@@ -22,4 +22,22 @@ static VehicleBrand * instance = nil;
     return instance;
 }
 
+- (NSMutableArray<NSDictionary *> *)allBrands
+{
+    if (_allBrands == nil) {
+        _allBrands = [[NSMutableArray alloc]init];
+    }
+    return _allBrands;
+}
+
 @end
+
+@implementation VehicleSeries
+
+@end
+
+@implementation VehicleProductionYear
+
+@end
+
+

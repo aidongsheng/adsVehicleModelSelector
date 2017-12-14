@@ -7,8 +7,11 @@
 
 #import "ADSVehicleModelController.h"
 #import "ADSVehicleRequest.h"
+#import "VehicleBrandCell.h"
+#import "Masonry.h"
+#import "ADSVehicleModel.h"
 
-@interface ADSVehicleModelController ()
+@interface ADSVehicleModelController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong) UITableView * vehicleTableView;
 
@@ -19,77 +22,95 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self initSubViews];
     
-    self.view.backgroundColor = [UIColor purpleColor];
-    
-    UIButton * button1 = [[UIButton alloc]init];
-    button1.tag = 1;
-    [button1 addTarget:self action:@selector(requestVehicle:) forControlEvents:UIControlEventTouchUpInside];
-    
-    UIButton * button2 = [[UIButton alloc]init];
-    button2.tag = 2;
-    [button2 addTarget:self action:@selector(requestVehicle:) forControlEvents:UIControlEventTouchUpInside];
-    
-    UIButton * button3 = [[UIButton alloc]init];
-    button3.tag = 3;
-    [button3 addTarget:self action:@selector(requestVehicle:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:button1];
-    [self.view addSubview:button2];
-    [self.view addSubview:button3];
-    CGFloat buttonHeight = 40,buttonPadding = 20;
-    
-    button1.frame = CGRectMake(10, 100, 100, buttonHeight);
-    button2.frame = CGRectMake(10, button1.frame.origin.y+buttonHeight+buttonPadding, 100, buttonHeight);
-    button3.frame = CGRectMake(10, button2.frame.origin.y+buttonHeight+buttonPadding, 100, buttonHeight);
-    
-    [button1 setTitle:@"所有品牌" forState:UIControlStateNormal];
-    [button2 setTitle:@"品牌系列" forState:UIControlStateNormal];
-    [button3 setTitle:@"系列年份" forState:UIControlStateNormal];
+    dispatch_async(dispatch_get_global_queue(0, DISPATCH_QUEUE_PRIORITY_HIGH), ^{
+        [self initData];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self initSubViews];
+        });
+    });
+}
+
+- (void)initData
+{
+    ADSALLBrandRequest * brandRequest = [[ADSALLBrandRequest alloc]init];
+    [brandRequest startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
+        NSLog(@"%@",request.responseString);
+        
+        NSArray * brands = [request.responseJSONObject objectForKey:@"brand"];;
+        for (int index = 0; index < brands.count; index++) {
+            NSDictionary * brand = brands[index];
+            NSString * brandName = brand[@"name"];
+            NSString * brandIconUrl = [@"http://192.168.0.62:8001/51auto/autobrand" stringByAppendingString:brand[@"autoflag"]];
+            NSDictionary * brandInfo = [NSDictionary dictionaryWithObjectsAndKeys:brandName,@"brand_name",brandIconUrl,@"iconUrl", nil];
+            [[VehicleBrand shareInstance].allBrands addObject:brandInfo];
+        }
+    } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
+        NSLog(@"%@",request.error);
+    }];
 }
 
 - (void)initSubViews
 {
     _vehicleTableView = [[UITableView alloc]initWithFrame:CGRectZero
-                                                    style:UITableViewStyleGrouped];
-    
+                                                    style:UITableViewStylePlain];
+    _vehicleTableView.delegate = self;
+    _vehicleTableView.dataSource = self;
+    [self.view addSubview:_vehicleTableView];
+    [_vehicleTableView registerClass:[VehicleBrandCell class]
+              forCellReuseIdentifier:NSStringFromClass([VehicleBrandCell class])];
+    [_vehicleTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.right.mas_equalTo(0);
+    }];
 }
 
-- (void)requestVehicle:(UIButton *)sendor
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-        if (sendor.tag == 1) {
-            ADSALLBrandRequest * request = [[ADSALLBrandRequest alloc]init];
-            [request startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-                NSLog(@"response:%@",request.responseString);
-            } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
-                NSLog(@"error:%@",request.error);
-            }];
-        }else if (sendor.tag == 2){
-            NSString * brand = @"大众";
-            ADSBrandSeriesRequest * request = [[ADSBrandSeriesRequest alloc]initWithBrand:brand];
-            [request startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-                NSLog(@"response:%@",request.responseString);
-            } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
-                NSLog(@"error:%@",request.error);
-            }];
-        }else if (sendor.tag == 3){
-            NSString * brand = @"大众";
-            NSString * series = @"速腾";
-            
-            ADSSeriesYearsRequest * request = [[ADSSeriesYearsRequest alloc]initWithBrand:brand
-                                                                                   series:series];
-            [request startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-                NSLog(@"response:%@",request.responseString);
-            } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
-                NSLog(@"error:%@",request.error);
-            }];
-        }
+    return 1;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [VehicleBrand shareInstance].allBrands.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    VehicleBrandCell * cell = (VehicleBrandCell *)[tableView dequeueReusableCellWithIdentifier:NSStringFromClass([VehicleBrandCell class])];
+    if (!cell) {
+        cell = [[VehicleBrandCell alloc]initWithStyle:UITableViewCellStyleDefault
+                                     reuseIdentifier:NSStringFromClass([VehicleBrandCell class])];
+    }
+    [self configCell:cell forRowAtIndexPath:indexPath];
+    return cell;
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+- (void)configCell:(VehicleBrandCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [super touchesBegan:touches withEvent:event];
+    [cell initCellWithData:[VehicleBrand shareInstance].allBrands[indexPath.row]];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 0;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 0;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return nil;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+    return nil;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
 }
 @end

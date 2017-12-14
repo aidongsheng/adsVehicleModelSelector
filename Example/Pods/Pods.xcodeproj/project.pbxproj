@@ -84,11 +84,13 @@
 		20E84F6652C40BD31DB48165EC7515C5 /* YTKBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AFA538F85ADE05628CB9B349046E0C /* YTKBatchRequestAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AED18A79AC9B832CEA2BC1F4192A65 /* UISearchBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A07133BC4E6D276BAC8F1FED25D25C55 /* UISearchBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22ACD4ED3A809DB07D675C934A644C80 /* UITextField+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D17077A5081732B1397CE8C336DC7436 /* UITextField+YYAdd.m */; };
+		22CBDAEB2AA425361BD689B657BFB278 /* VehicleBrandCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 189C9969C520D53DEB44293DFAD53AF6 /* VehicleBrandCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22EBFA0C512FD549E1308BD9E2276F26 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A914D8E98E3013635DB0CCEFB22C50F0 /* YYSpriteSheetImage.m */; };
 		23A202173026CEA22A24CD309159A5F6 /* QMUIAssetsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FB00951618A2BC4DAB92AA4706BF19 /* QMUIAssetsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23D757F185B36CC046CDBD1A5DC6904C /* YYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A3948B0BD5E6C263D07D40EAD7C88 /* YYSentinel.m */; };
 		2499C73D9D5EF32BF017622B4110BF4E /* UINavigationController+NavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 01EBCC98CFD281E08E7615E5322C33F4 /* UINavigationController+NavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2524EC4EF024A6C067A0FA082084CFB5 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D02D11928627CF01663F2EA4D149A /* MJRefreshBackStateFooter.m */; };
+		254CE8DBF51C84A1204B24D2030488E5 /* VehicleModelSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A12FF7279D735A97E5A4692A199473D /* VehicleModelSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BBBB06163DD5CB89ED55CA62FDF239 /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 569AAD1B1B9ED6772E7D2A28A6B49729 /* NSDate+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BC1DEBFC274B187C265D7AD0409E23 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E351A5C8C3B9DB0717EAE79E9752B1F /* YYTimer.m */; };
 		27C08CBC5BEB22C584F7655C686DE643 /* QMUIAssetsGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = A88B6AEFF803E4CE50D6C4AABE96FD40 /* QMUIAssetsGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -139,7 +141,6 @@
 		41422AD739F9F7E255F397DB6BE7D7F6 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCAF886952B94CB455419CD4B67500 /* UIView+YYAdd.m */; };
 		41A25D4B7E26B93D76CB750AB7BADF87 /* QMUITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B5C9CEDEC06401129E3E6146DCAD02 /* QMUITableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		424E783A4C401DC28E35796CE8941CCF /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA53D440201428C5E9EFE5B3CE47C950 /* YYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4294D4C91BD97E5110E1C3A351D82BA0 /* ADSVehicleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE326D37FA38B3B5E131FE8C3E3B535 /* ADSVehicleModel.m */; };
 		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8522C1C3DC8507BF853565393A4E7F /* SystemConfiguration.framework */; };
 		42C981B94D0A666F4DE66EE4F9FC8762 /* CALayer+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2299D5A8279B293BBC27476D796BE52D /* CALayer+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C1CDB5106A4823380716EEA2E9076 /* Foundation.framework */; };
@@ -162,10 +163,13 @@
 		4AD18BC87C90BDD9EC2826B256FE2489 /* NSAttributedString+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC78676A261F6DFE248BC21D31AE5F6 /* NSAttributedString+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BB0086630C69B00DB90CEDE2C2FD4F6 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E13013919E13F2CBB8F90680C87571AB /* YTKChainRequestAgent.m */; };
 		4C4B185270B2364B40AE41C4C5068804 /* QMUIAlbumViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7226FA7536BC0BF434C6EA69BD42D00F /* QMUIAlbumViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB34A1F87F6F576E53D21878B4138DF /* ADSVehicleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5513DA3344DA3EB0C97F8F2E44FFB7 /* ADSVehicleModel.m */; };
+		4CECB997F37F6EE9D875AEB1A43515A3 /* ADSVehicleModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353338D390F5F5FF0401B3A9C925816C /* ADSVehicleModelController.m */; };
 		4D318B3CA9CF0B4F63E26E5A5914F730 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE0EBB1AB88E10239DC1EA4C389E14 /* YYTextKeyboardManager.m */; };
 		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D8CDAA607F2A5A40B850E52248B06E /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DAF2C68D925351FA10660D92923EA4B /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CCB273E45EFBEC5EAD93366E2FB6A7 /* YYWebImageManager.m */; };
 		4DE9036877B69CBF4B3A8BC880A642F1 /* YYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0803347C8A469C27A9BF9B0DF1F5B067 /* YYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5B138C0548AE5A31D74A00D6521A32 /* ADSVehicleModelController.h in Headers */ = {isa = PBXBuildFile; fileRef = F74F911BEE1B72048657B49AD6700747 /* ADSVehicleModelController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E8D32049AB36CE4F16305452E73E12A /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BF971F79556CB21B3C625FF4BCF1B472 /* NSData+YYAdd.m */; };
 		503B148A3768F30062B29076190B44BB /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5561A1A453239F4F3F5F6B2D09299 /* YYTextRubyAnnotation.m */; };
 		507D6090C5DCE61E740E6202E591C7AD /* NSAttributedString+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB31466A0DB9F61B8D906D155AD831A /* NSAttributedString+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -182,7 +186,6 @@
 		552CD03770D8B74CA294988D6D8B9765 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BA9FA0CCDFD9040514E837927C4568 /* AFNetworking.framework */; };
 		55B6199DD65FEDF7382A6E20E1D274AA /* QMUICollectionViewPagingLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1516B474A12C2F6DD98736989D8D6A /* QMUICollectionViewPagingLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		578EA94BD2BACF9ADB21E2F253AAE7F3 /* QMUITestView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD09CEDB4DDF482F31AFEA46A51BB7A /* QMUITestView.m */; };
-		579B5A9316F02BF18837A0E27551238E /* ADSVehicleModelController.h in Headers */ = {isa = PBXBuildFile; fileRef = A083183D08E39B0DA9C9B3ED9B473DA2 /* ADSVehicleModelController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5804D8100E18C099C650D717C65C1057 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D1997D5233EB654F3176E3F3ACEBE /* MKAnnotationView+YYWebImage.m */; };
 		58E6E68D10EF3D64522BD267CC1761A6 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 12D3A354C03948CA14EF27BD2FBC710A /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		593D8F764106BF230C02D94DF01DE322 /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 666AB5BC272E936CFF1591D51B6ADDB0 /* NSObject+YYAdd.m */; };
@@ -248,13 +251,12 @@
 		7942D242D079A5710A72B659A54D7E26 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9B55585B4B0F92FF5416AB01EC5B24 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B389C08B8CA11189ACF18C3F5BC1B1 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B20F20A9CDA92282A8821B435D2ABE6 /* QMUIAssetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83400A8531D33666EFF6803AAF95044F /* QMUIAssetsManager.m */; };
+		7B31F64822E31160AA390078A091196E /* VehicleBrandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0260FD622D9D67C4834EE2AE439C489 /* VehicleBrandCell.m */; };
 		7B7B2B7EC6E54ECE401359DD51762196 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314A54F4BC6525200082EA42D51B87CB /* CoreImage.framework */; };
 		7B916E8AAE3F901E70691C342B52580A /* QMUIEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAD9A0D2E5C5658D8863C7580D55C21 /* QMUIEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BD23C7A13A596F9E2703129C147866B /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E0A06B9D584AB1DA724983F6FF9C4F /* NSBundle+YYAdd.m */; };
 		7BDE5C67174B0A5CA6E7D5289EDD5103 /* QMUIImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87AE4FA3B98882EE73738170459441B /* QMUIImagePickerViewController.m */; };
-		7BEB82BFE8F4B6C4CDA3C7E11843A049 /* ADSVehicleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C28E2A7DCAFD48EE33990CD9E26CFC7B /* ADSVehicleRequest.m */; };
 		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4E1FE3DB30B8FBE87760BA29FEB55B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C5EE6D7A9AF2CCDEAE66152D558D412 /* ADSVehicleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D040BE7C5FBF0688E584D4F3C7B3A0 /* ADSVehicleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 730E10592D20C3F5AF88BD3A5EE83A5F /* UIWebView+AFNetworking.m */; };
 		7D57E176CD917DE171BACDEBA5589878 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC246037626EE420BDD82FB11CD53D9 /* NSTimer+YYAdd.m */; };
 		7D70B8D512E6B886AB963CDB60C86AA5 /* QMUIMoreOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3FF8BB191A5EB85FBAFBBC4222C6 /* QMUIMoreOperationController.m */; };
@@ -273,9 +275,9 @@
 		833A442D39BF1E5C20AC6BAAB30A6D3C /* YYThreadSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEDC75FB8627E64C8928FCE8EFA6692 /* YYThreadSafeDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		845D5D18F35310AAC0CF7BE9BC0AAE01 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1C18D7BE2998F1141EDCAC930D61E /* NSParagraphStyle+YYText.m */; };
 		84A6689C9DAEA77537AEA4073C1F4E28 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4BB1BE23C4AF3F20BA9F2EAE897FA /* YYWeakProxy.m */; };
+		84C35CE7CC8E36ED20B179EC5D83132B /* ADSVehicleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BB3361AC83394F0A0A0D33A124596B /* ADSVehicleRequest.m */; };
 		84E8154D9CB5CD79CF127D394291ABA8 /* QMUICommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46BE3BB7A1E67325921612EF08AB641 /* QMUICommonTableViewController.m */; };
 		8504226A790285D8E5C33874E54D4208 /* QMUIImagePickerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7590E09E4F01997896B40FFAEF38ED /* QMUIImagePickerCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85FC0505831566CC19B5E81DF0A65F57 /* VehicleModelSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB90DF86B5473055D468161110E690 /* VehicleModelSelector-dummy.m */; };
 		869AD920F2C91A78E164D56873F7A081 /* NSThread+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 225027E01CFF1530F2BFAE01EC139150 /* NSThread+YYAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		86E7D5AE469ED141912D1B6DE6BF76DB /* QMUIToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA7690E6A9007A954ECADD3B7C77595 /* QMUIToastContentView.m */; };
 		87DCBB4EC854E4D9684C8A4C074BB82C /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D8923FA6F45686CC26BBB0DAA1EF70 /* YYTextUtilities.m */; };
@@ -293,7 +295,6 @@
 		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8D9EEFFAF66311F0C0A47C8640944D /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D2B821F37409192F84C5DDDA5458DC3 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CD5203CF5BF4996ACC6B6F43CBFCE4 /* YYClassInfo.m */; };
 		8DC3FC2342EC2E944B3A3E83E2683130 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0991811B6D9DE2AE8BB2DC8D03545F80 /* MJRefreshHeader.m */; };
-		8F665491D3E7F371FDFAF0BB51603C36 /* ADSVehicleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B0B6B122C790FCE67787DABD24589C /* ADSVehicleRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91F59960B0CC6CD81775352F40D3097A /* QMUIOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF05A02F2B18C684A341431543024B9 /* QMUIOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD926B40F104F5331BFBFACB339B051 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F134DBC4FBB3567E6713902C55420B /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -304,7 +305,7 @@
 		96E57D444E94AAB1A9DD95E19026C69E /* UISearchBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AB950BC0BD3AA441EE332158F59A28EE /* UISearchBar+QMUI.m */; };
 		980DF11277E2F09D1092B7FE5EB5B2F5 /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 37838548FA107C32207C38DEE1844976 /* YYFrameImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98481B745C427D6C471A72719C73A3DB /* NSKeyedUnarchiver+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E66182E0E71D3F208DA6E5EC79BAC170 /* NSKeyedUnarchiver+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9884FB053B0A97284B33ACAB3A484827 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545E883AD5EC536309FF9C04517AFFE2 /* Media.xcassets */; };
+		9884FB053B0A97284B33ACAB3A484827 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEED7A05F0346F18708F1856BDF99CF /* Media.xcassets */; };
 		990EA3CF94FC5E5E16B4B766DBE76AC8 /* QMUINavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F763F006CFDF46A6193534A75ED6D8 /* QMUINavigationTitleView.m */; };
 		99837C3935118F18C0C306641981F291 /* UIFont+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F389C6C30FE6FA1B6AB7F4304E61C17D /* UIFont+QMUI.m */; };
 		9AA455D8ADA09450D86D7AD2529C343D /* QMUITestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEAC1F871AE1DE75D6D0E09D7AE75C5 /* QMUITestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -326,6 +327,7 @@
 		A1DCB69F2C4BD23497DA641E50B9ACA3 /* UIPasteboard+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = D010364FC993E89BAF6B5D3B04920A87 /* UIPasteboard+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A21F686674A6A5569CFC00E8097F2D9E /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0EF4389822F0916369D8EE770C245 /* YYTextContainerView.m */; };
 		A23001D8663AD9FB4922D5AC3C886629 /* QMUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC700A9997CFE854BCFA21B3B1E898 /* QMUIKit-dummy.m */; };
+		A2881703853EA1231068DD4D6D38AF09 /* VehicleModelSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E996FE34F1904BC40BCC970251BB8B57 /* VehicleModelSelector-dummy.m */; };
 		A2D9F9EFFDFE9C19DA842E826B06BCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C1CDB5106A4823380716EEA2E9076 /* Foundation.framework */; };
 		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2988BB4A83F5C5BF661BE4446ECE6446 /* AFAutoPurgingImageCache.m */; };
 		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9049007C62357AEBF6ED35BC8F29BB /* AFImageDownloader.m */; };
@@ -353,6 +355,7 @@
 		AFC815D02FA30648BC3C92C09D156CA0 /* QMUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E33F53355F4AED374666430061C3FCD /* QMUIKit.framework */; };
 		AFD7E9C25AAA74BF7B3D9D665D2384B6 /* YYKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF5E81137F3FBB4B0D95E5C6C98C897 /* YYKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B02D91E02099D3C6A2F988C766032176 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B94D188090339911C74EF4E89F0C7AD /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04D834556074C2A03B94C690D6EAB59 /* ADSVehicleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA2C627148E771BA6AD3A59ED97211A /* ADSVehicleRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1162B3610C5737A4A7926B0DBD47E0B /* QMUIPopupMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = C775B84A484BE3C858BC846D900AE185 /* QMUIPopupMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B161DDFB06FA7F753DB2E59B51D9F3D8 /* QMUICellHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B45FF31354808A2075D6D1934EDFCFAF /* QMUICellHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 71994B9DE1EE6A5EBE2825A9E7A49CA0 /* UIRefreshControl+AFNetworking.m */; };
@@ -393,6 +396,7 @@
 		C31A03D66AFE084705EEDBBA9FBC7284 /* QMUIMarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 962159D503AFCFBE1A8598D807067F95 /* QMUIMarqueeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3245C29781F102F768F47710FC1F826 /* QMUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EF2B90E15EEC188761C02BA89B0A9C /* QMUILabel.m */; };
 		C34CFAF882A4F1DBBB3781DA7B37B797 /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ABBCA44956509722CEA32A1CE4D169 /* YYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C38BDCAE27BB51ED6322773A2A58D586 /* ADSVehicleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A956A44B4D21B52ABD93B77F7A8A6E9 /* ADSVehicleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C45B87E1093879A8DD06669C51696914 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10D3D9F90DDC1714C00C433969F87A /* YYReachability.m */; };
 		C4D31FE645F22B2F18FA71989DAD0BD7 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2C6FFEAF2163C62A22B2A8710F3ED8 /* YYTextMagnifier.m */; };
 		C60A0849651A654745F84A18D42BAF59 /* YYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 248AC423E60E0859837844554D210465 /* YYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -485,14 +489,12 @@
 		EE695A34DCA63A6F93C8E8700CD43EBE /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E420128B56F8B8A21B29860F5DF711F /* NSObject+YYAddForKVO.m */; };
 		EEB65476DD9761CB6BD9C1F6554BB47F /* NSNotificationCenter+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A338CEF7B8DC47FF32EE8602AC760A /* NSNotificationCenter+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF11A9B8DB4ECC02A3676A815D803DD3 /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7739BD6D759FA828B3F3850FFA72F8 /* UIColor+YYAdd.m */; };
-		EF7DCF10539EF58B0C2C2584B3BB309E /* ADSVehicleModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D11E683B0928BCB58FDC1FB75DB77 /* ADSVehicleModelController.m */; };
 		EFA292C0BF347C2399AE220218B10763 /* NSArray+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9344BDAAC595824C208719FB9D887578 /* NSArray+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFB25B06DE202277393A79E1D0C4013A /* QMUIStaticTableViewCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB31462946054FF2EECE888B65BC898 /* QMUIStaticTableViewCellData.m */; };
 		EFFD191AC5A0E9E208215A6BECAFC7AC /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A535791B4094D4D7AF31C0D59D9BB9D /* YTKNetworkConfig.m */; };
 		F00F5D3BA4B8ED228952D8F706966E21 /* UIImageView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D50DBD44ED1F8E85876DA0C8D273816D /* UIImageView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F011649D6B36613E234C21AB9286AB26 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8330FBC8788880E2EED73FBEBDDC2AA3 /* YYTextSelectionView.m */; };
 		F047C46EE721BBB4E87042410D0E4EE7 /* UINavigationController+NavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2EC72F6FE77ED6FE8F10F1F4E0130 /* UINavigationController+NavigationBarTransition.m */; };
-		F1B5A81E11D2D0AFFA758C51610607EF /* VehicleModelSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 574537A51B6AB5E8987EE4A8B451F0CD /* VehicleModelSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D946D7989DDC2E159F2112F96142408D /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F26A3B9F44F918C423F5C57FDE7E6EA0 /* UITableView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB863038BC6CE838FD131A29071CE93 /* UITableView+YYAdd.m */; };
 		F2C7CDC2D09389B91AFCB8279AD60BB5 /* QMUIGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1315437387598352713BD1A03F88AD5 /* QMUIGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -638,6 +640,7 @@
 		01EBCC98CFD281E08E7615E5322C33F4 /* UINavigationController+NavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NavigationBarTransition.h"; path = "QMUIKit/QMUIComponents/NavigationBarTransition/UINavigationController+NavigationBarTransition.h"; sourceTree = "<group>"; };
 		02D5A55E81CDE932E499005E2D404930 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		02ECDC119E3FEBBBB237D8C03676A1F0 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		02FA126925F35D76823472388E9813F8 /* VehicleModelSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VehicleModelSelector.xcconfig; sourceTree = "<group>"; };
 		0385E05514EAE62A5371F87E537D042B /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		039F11B0D7E3EAA187AEF975FB81472D /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYKit/Text/String/YYTextArchiver.h; sourceTree = "<group>"; };
 		03B5C9CEDEC06401129E3E6146DCAD02 /* QMUITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITableView.h; path = QMUIKit/QMUIComponents/QMUITableView.h; sourceTree = "<group>"; };
@@ -663,7 +666,6 @@
 		0C2CD3146A77BD07D473E31A5D8ACB6A /* QMUISearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISearchBar.m; path = QMUIKit/QMUIComponents/QMUISearchBar.m; sourceTree = "<group>"; };
 		0C53DCFE91C6E2F54EBCA4F19CAA5A3A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		0D2379F06FD56DC7B5F4DE552C0DBA88 /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYKit/Image/YYImageCache.h; sourceTree = "<group>"; };
-		0D2C5A7688A929CBEA479CF7B9CFD529 /* VehicleModelSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VehicleModelSelector-prefix.pch"; sourceTree = "<group>"; };
 		0D8517C5E05DC3FF3317195924FC50E3 /* YYFileHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFileHash.m; path = YYKit/Utility/YYFileHash.m; sourceTree = "<group>"; };
 		0D856BCC24339EDC48EC290950DCB45F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D90D454AB2AE4F14B46982B67683E90 /* UICollectionView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UICollectionView+QMUI.m"; sourceTree = "<group>"; };
@@ -680,16 +682,18 @@
 		16930FBA45687FFB4373CC754F107162 /* QMUIAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAsset.m; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAsset.m; sourceTree = "<group>"; };
 		16A7016771AD45BB6026562A3B2753D4 /* YYTextParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextParser.m; path = YYKit/Text/String/YYTextParser.m; sourceTree = "<group>"; };
 		16C9D8A1DC27892E42B50925EA204527 /* QMUIImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerHelper.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerHelper.m; sourceTree = "<group>"; };
+		178E60DEB24F8C316AF1F552892EEB76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1833489F785C5DBE6401B7986E44359A /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		18748331C37E78D42C8C5F8F4898413E /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		189C9969C520D53DEB44293DFAD53AF6 /* VehicleBrandCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VehicleBrandCell.h; sourceTree = "<group>"; };
 		18BCE9632B0B5207BCAE9CB8D895CA82 /* QMUISlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISlider.m; path = QMUIKit/QMUIComponents/QMUISlider.m; sourceTree = "<group>"; };
 		19FB403223D5878427BC08B5F614FC89 /* UITableView+QMUIStaticCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+QMUIStaticCell.h"; path = "QMUIKit/QMUIComponents/StaticTableView/UITableView+QMUIStaticCell.h"; sourceTree = "<group>"; };
 		1A5DA098BB0C91CBA4FDAF4DD796C337 /* YTKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEED7A05F0346F18708F1856BDF99CF /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = VehicleModelSelector/Assets/Media.xcassets; sourceTree = "<group>"; };
 		1B16C216459D95D30B181C755AD58382 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		1B630C4F8C7AF32728FEA72E2ACA396D /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+YYText.m"; path = "YYKit/Text/String/UIPasteboard+YYText.m"; sourceTree = "<group>"; };
 		1B8522C1C3DC8507BF853565393A4E7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1C21BEF89BB96F5D5280B168DEFC7632 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		1EBB90DF86B5473055D468161110E690 /* VehicleModelSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VehicleModelSelector-dummy.m"; sourceTree = "<group>"; };
 		1F23EA255C6DCAF60B9BCCF121FC4D6C /* UITextView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITextView+QMUI.h"; sourceTree = "<group>"; };
 		1F44F83F523F77FFACCEBBF8FAB71709 /* Pods_VehicleModelSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VehicleModelSelector_Example.framework; path = "Pods-VehicleModelSelector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2101C69062F2EE59C90CF71833C1F6E8 /* QMUIImagePreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePreviewViewController.m; path = QMUIKit/QMUIComponents/QMUIImagePreviewViewController.m; sourceTree = "<group>"; };
@@ -708,7 +712,6 @@
 		239CAC48E8D7B9CCE39802F0063A0452 /* YYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImage.h; path = YYKit/Image/YYImage.h; sourceTree = "<group>"; };
 		248AC423E60E0859837844554D210465 /* YYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYKit-umbrella.h"; sourceTree = "<group>"; };
 		2572DBD560F9A5BC4960426BB4E02AF9 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		26D040BE7C5FBF0688E584D4F3C7B3A0 /* ADSVehicleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADSVehicleModel.h; sourceTree = "<group>"; };
 		26FF5C32FD7820B18A5CE883A47A65F4 /* QMUIAssetsGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAssetsGroup.m; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAssetsGroup.m; sourceTree = "<group>"; };
 		274712E10661966F017F44354AE6D9A9 /* QMUIKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIKeyboardManager.m; path = QMUIKit/QMUIComponents/QMUIKeyboardManager.m; sourceTree = "<group>"; };
 		28D80BCF46E2B2D9ECCA84C46C991242 /* QMUITabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITabBarViewController.h; path = QMUIKit/QMUIMainFrame/QMUITabBarViewController.h; sourceTree = "<group>"; };
@@ -746,6 +749,7 @@
 		33AA2C1D3752EAA5828D79AC6BEB99ED /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		33D5CC2CE522DDCF70BBBF39233690A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3528B98AE5A82BCA6201FC5BF437065F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		353338D390F5F5FF0401B3A9C925816C /* ADSVehicleModelController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADSVehicleModelController.m; path = VehicleModelSelector/Classes/ADSVehicleModelController.m; sourceTree = "<group>"; };
 		3557050D84B0CA541BE4DD4E9C3E409E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		358177FD0DEA50B85AB49D0517A89F57 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		35DC700A9997CFE854BCFA21B3B1E898 /* QMUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMUIKit-dummy.m"; sourceTree = "<group>"; };
@@ -753,6 +757,7 @@
 		37838548FA107C32207C38DEE1844976 /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYKit/Image/YYFrameImage.h; sourceTree = "<group>"; };
 		37F763F006CFDF46A6193534A75ED6D8 /* QMUINavigationTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUINavigationTitleView.m; path = QMUIKit/QMUIComponents/QMUINavigationTitleView.m; sourceTree = "<group>"; };
 		37F84B4AEA01E033D2BF9D076CE4B4C0 /* QMUIImagePickerCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerCollectionViewCell.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerCollectionViewCell.m; sourceTree = "<group>"; };
+		3A12FF7279D735A97E5A4692A199473D /* VehicleModelSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VehicleModelSelector-umbrella.h"; sourceTree = "<group>"; };
 		3A18EC2BD939E5E6EF5E4EF56FCD0A11 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		3A535791B4094D4D7AF31C0D59D9BB9D /* YTKNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkConfig.m; path = YTKNetwork/YTKNetworkConfig.m; sourceTree = "<group>"; };
 		3A90E3EB1ACB9A8D30656ABC2E1F8570 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+YYAdd.h"; path = "YYKit/Base/UIKit/UIControl+YYAdd.h"; sourceTree = "<group>"; };
@@ -765,6 +770,7 @@
 		3EEE2115044B3DF04BD1747120762B12 /* UIButton+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIButton+QMUI.h"; sourceTree = "<group>"; };
 		3F3C1CDB5106A4823380716EEA2E9076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F46D3DC58DA42DA4411D506EC3DC30A /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYKit/Text/String/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		3F5513DA3344DA3EB0C97F8F2E44FFB7 /* ADSVehicleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADSVehicleModel.m; sourceTree = "<group>"; };
 		3FB3BE5A40210C68B80B173019665E8C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		425B9AA92599E1D0C0F63806339BCD00 /* QMUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIButton.h; path = QMUIKit/QMUIComponents/QMUIButton.h; sourceTree = "<group>"; };
 		43D8CDAA607F2A5A40B850E52248B06E /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -782,6 +788,7 @@
 		49FA04B6C5957A2CBC3E6BEC02086505 /* QMUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUISegmentedControl.h; path = QMUIKit/QMUIComponents/QMUISegmentedControl.h; sourceTree = "<group>"; };
 		4A1D0CD72271B36D3E6180BE66B6F089 /* YYTextParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextParser.h; path = YYKit/Text/String/YYTextParser.h; sourceTree = "<group>"; };
 		4A898B227B4CE6D05F151EDEF9ACF103 /* YTKBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBaseRequest.h; path = YTKNetwork/YTKBaseRequest.h; sourceTree = "<group>"; };
+		4A956A44B4D21B52ABD93B77F7A8A6E9 /* ADSVehicleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADSVehicleModel.h; sourceTree = "<group>"; };
 		4ABF40B3AE06F8D065D6AB1827383264 /* YYWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageOperation.m; path = YYKit/Image/YYWebImageOperation.m; sourceTree = "<group>"; };
 		4B5326E56382D1DE3C3442D17791D929 /* QMUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITextField.m; path = QMUIKit/QMUIComponents/QMUITextField.m; sourceTree = "<group>"; };
 		4BBB4E27263765590946B228509C83E2 /* UIScreen+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+YYAdd.h"; path = "YYKit/Base/UIKit/UIScreen+YYAdd.h"; sourceTree = "<group>"; };
@@ -801,7 +808,6 @@
 		51CE0DC3D8B45784D2D2E55CE24637CC /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYKit/Base/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
 		5356C9E43E7D6E9FB2B1AC4606694FD3 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		53C4921852F3C2641EDA938D2422BDAA /* NSString+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSString+QMUI.h"; sourceTree = "<group>"; };
-		545E883AD5EC536309FF9C04517AFFE2 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = VehicleModelSelector/Assets/Media.xcassets; sourceTree = "<group>"; };
 		545F7E34268EF194D2DCFA0630B350A3 /* NSAttributedString+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSAttributedString+QMUI.m"; sourceTree = "<group>"; };
 		548395008D73631CE68C4072A79E104F /* NSObject+YYAddForKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForKVO.h"; path = "YYKit/Base/Foundation/NSObject+YYAddForKVO.h"; sourceTree = "<group>"; };
 		549077F37A77AC98EF5BA46CA540F16F /* YYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextView.h; path = YYKit/Text/YYTextView.h; sourceTree = "<group>"; };
@@ -814,7 +820,6 @@
 		569AAD1B1B9ED6772E7D2A28A6B49729 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YYAdd.h"; path = "YYKit/Base/Foundation/NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		56CC76B74561000D79825E888C3FA2A9 /* UITextField+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+YYAdd.h"; path = "YYKit/Base/UIKit/UITextField+YYAdd.h"; sourceTree = "<group>"; };
 		56DD5A1035912A8CE3D8483805C026C0 /* NSObject+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSObject+QMUI.m"; sourceTree = "<group>"; };
-		574537A51B6AB5E8987EE4A8B451F0CD /* VehicleModelSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VehicleModelSelector-umbrella.h"; sourceTree = "<group>"; };
 		57E069B13C659BEE791D10A121E9806D /* UIScrollView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+YYAdd.h"; path = "YYKit/Base/UIKit/UIScrollView+YYAdd.h"; sourceTree = "<group>"; };
 		57E3032E107F8FE41107D2B4C8DB7795 /* QMUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUIKit-prefix.pch"; sourceTree = "<group>"; };
 		57E40F54B3A569F45623F0C26CD75781 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+YYAdd.m"; path = "YYKit/Base/UIKit/UIControl+YYAdd.m"; sourceTree = "<group>"; };
@@ -834,7 +839,6 @@
 		5F106339C85D3E1A64EF30B98503AF0A /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
 		5F6735AE42A955BEDF72AD92558C5FD8 /* UIBezierPath+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIBezierPath+QMUI.h"; sourceTree = "<group>"; };
 		5F811AE8F8B0B707B6E966489441AAB0 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		5F880D313B44700775EFABFF58BA0C0D /* VehicleModelSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VehicleModelSelector.xcconfig; sourceTree = "<group>"; };
 		6027C06DEAA2C2379FF947D3ACCE3186 /* UIImage+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIImage+QMUI.m"; sourceTree = "<group>"; };
 		612E9159AB625DDD4413B04819BB45F5 /* QMUIImagePickerPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerPreviewViewController.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerPreviewViewController.m; sourceTree = "<group>"; };
 		61353F73EBC1FE37BB79D08AA9FC0DC8 /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDispatchQueuePool.m; path = YYKit/Utility/YYDispatchQueuePool.m; sourceTree = "<group>"; };
@@ -901,7 +905,6 @@
 		7FAD9A0D2E5C5658D8863C7580D55C21 /* QMUIEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIEmptyView.h; path = QMUIKit/QMUIComponents/QMUIEmptyView.h; sourceTree = "<group>"; };
 		8026404A7962A7A6FB71704225D76211 /* QMUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIKit.h; path = QMUIKit/QMUIKit.h; sourceTree = "<group>"; };
 		80893F4E5142D3B454DB9252665F92A2 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		8186C5DF17AD46274A7DC1E3B062E9A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818C89169C54BA9E22B4C14CA978AEE6 /* NSDictionary+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YYAdd.h"; path = "YYKit/Base/Foundation/NSDictionary+YYAdd.h"; sourceTree = "<group>"; };
 		8330FBC8788880E2EED73FBEBDDC2AA3 /* YYTextSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextSelectionView.m; path = YYKit/Text/Component/YYTextSelectionView.m; sourceTree = "<group>"; };
 		8334C84B0F64DAC2CC0D2E18F813EEAE /* UIColor+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YYAdd.h"; path = "YYKit/Base/UIKit/UIColor+YYAdd.h"; sourceTree = "<group>"; };
@@ -941,7 +944,6 @@
 		91936CA07EDB31CA6E4B9B2985D460ED /* QMUINavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUINavigationController.m; path = QMUIKit/QMUIMainFrame/QMUINavigationController.m; sourceTree = "<group>"; };
 		91CFC9B525BEF8A1F85F75F7ED6B3E2B /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYKit/Cache/YYMemoryCache.m; sourceTree = "<group>"; };
 		92209FE507B033248AEE311A7FFD7D19 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSpriteSheetImage.h; path = YYKit/Image/YYSpriteSheetImage.h; sourceTree = "<group>"; };
-		92B0B6B122C790FCE67787DABD24589C /* ADSVehicleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADSVehicleRequest.h; sourceTree = "<group>"; };
 		93173BA5583F934AD9ECF27FBB4EFE91 /* UITabBarItem+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITabBarItem+QMUI.h"; sourceTree = "<group>"; };
 		9344BDAAC595824C208719FB9D887578 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YYAdd.h"; path = "YYKit/Base/Foundation/NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		936D11ECADA3299E7EBB291DF8C13752 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -951,13 +953,13 @@
 		962159D503AFCFBE1A8598D807067F95 /* QMUIMarqueeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIMarqueeLabel.h; path = QMUIKit/QMUIComponents/QMUIMarqueeLabel.h; sourceTree = "<group>"; };
 		9633E842892F6B44A56807F34BE730D4 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		985E1AA178511256A4D3EF8910E2851F /* QMUIPopupContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIPopupContainerView.m; path = QMUIKit/QMUIComponents/QMUIPopupContainerView.m; sourceTree = "<group>"; };
+		98B93F0385335DC101A81891913478F7 /* VehicleModelSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VehicleModelSelector-prefix.pch"; sourceTree = "<group>"; };
 		98DE6E3AA79CDE3D784B082EF5712A10 /* UIBezierPath+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIBezierPath+QMUI.m"; sourceTree = "<group>"; };
 		9AD0616451C30E1C53E5D7E0F0B9B8FA /* QMUIMarqueeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIMarqueeLabel.m; path = QMUIKit/QMUIComponents/QMUIMarqueeLabel.m; sourceTree = "<group>"; };
 		9B6A3F59D57FF5457AF708D85E4B6D1E /* UIScrollView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIScrollView+QMUI.m"; sourceTree = "<group>"; };
 		9BC246037626EE420BDD82FB11CD53D9 /* NSTimer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+YYAdd.m"; path = "YYKit/Base/Foundation/NSTimer+YYAdd.m"; sourceTree = "<group>"; };
 		9BD8D96C544466CB416373520FCE8E63 /* YYTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLayout.m; path = YYKit/Text/Component/YYTextLayout.m; sourceTree = "<group>"; };
 		9BFCC5ECD000B1C2D5C38EAAA5D71D53 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		9CA69DA9FF0460D0BE5557455E0A9987 /* ResourceBundle-VehicleModelSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VehicleModelSelector-Info.plist"; sourceTree = "<group>"; };
 		9D1807AAC85D85286DEB255DD5289662 /* YYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYLabel.h; path = YYKit/Text/YYLabel.h; sourceTree = "<group>"; };
 		9D41C3BABAA11121F0F17D0DAD4D89CD /* YYTextDebugOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextDebugOption.h; path = YYKit/Text/Component/YYTextDebugOption.h; sourceTree = "<group>"; };
 		9D80B38682749CBC21C217B162CF3633 /* UINavigationController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UINavigationController+QMUI.m"; sourceTree = "<group>"; };
@@ -965,10 +967,8 @@
 		9DA4AF074ED3C7B08C6CBE85F24817C7 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YYWebImage.m"; path = "YYKit/Image/Categories/UIButton+YYWebImage.m"; sourceTree = "<group>"; };
 		9DE1A292B8EB3022030F963B8D4DBD03 /* YYTextAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAttribute.m; path = YYKit/Text/String/YYTextAttribute.m; sourceTree = "<group>"; };
 		9EBDC756F3809E53845A7B348E72F44E /* QMUITips.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITips.h; path = QMUIKit/QMUIComponents/QMUITips.h; sourceTree = "<group>"; };
-		9F6D11E683B0928BCB58FDC1FB75DB77 /* ADSVehicleModelController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADSVehicleModelController.m; path = VehicleModelSelector/Classes/ADSVehicleModelController.m; sourceTree = "<group>"; };
 		9F8D2BC752C57E7D9E550ACCA05C00D2 /* YYTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTransaction.m; path = YYKit/Utility/YYTransaction.m; sourceTree = "<group>"; };
 		A07133BC4E6D276BAC8F1FED25D25C55 /* UISearchBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UISearchBar+QMUI.h"; sourceTree = "<group>"; };
-		A083183D08E39B0DA9C9B3ED9B473DA2 /* ADSVehicleModelController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADSVehicleModelController.h; path = VehicleModelSelector/Classes/ADSVehicleModelController.h; sourceTree = "<group>"; };
 		A16D5CF2A00BE9C57000D3A41CC8188D /* VehicleModelSelector.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VehicleModelSelector.bundle; path = VehicleModelSelector.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D235F65FBA1B891C9B63EDA61B9A21 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		A2423469A2ACB0CE4938DB6154316B5F /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYKit/Model/NSObject+YYModel.h"; sourceTree = "<group>"; };
@@ -981,6 +981,7 @@
 		A52A3948B0BD5E6C263D07D40EAD7C88 /* YYSentinel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSentinel.m; path = YYKit/Utility/YYSentinel.m; sourceTree = "<group>"; };
 		A584D2591EF388E9B34BB481E9B023A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58D02D11928627CF01663F2EA4D149A /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		A5BB3361AC83394F0A0A0D33A124596B /* ADSVehicleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADSVehicleRequest.m; sourceTree = "<group>"; };
 		A5CCB273E45EFBEC5EAD93366E2FB6A7 /* YYWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWebImageManager.m; path = YYKit/Image/YYWebImageManager.m; sourceTree = "<group>"; };
 		A5CD4784AD3FFD0A086579B434ADAAD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6BBA0A76610951ED175AAD01D18A9F2 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYKit/Image/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
@@ -1016,6 +1017,7 @@
 		B120FD220E703055733E2F3ED4EE66F3 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
 		B1315437387598352713BD1A03F88AD5 /* QMUIGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIGridView.h; path = QMUIKit/QMUIComponents/QMUIGridView.h; sourceTree = "<group>"; };
 		B152EE4F1A36229C5B40270F3203DADC /* YTKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKRequest.h; path = YTKNetwork/YTKRequest.h; sourceTree = "<group>"; };
+		B189668D12E32A74C508D6A4365F5F4F /* ResourceBundle-VehicleModelSelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VehicleModelSelector-Info.plist"; sourceTree = "<group>"; };
 		B27947ED44F19B80E17E6C62B7EC163C /* QMUIStaticTableViewCellData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIStaticTableViewCellData.h; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellData.h; sourceTree = "<group>"; };
 		B328F285B83CDE5F9CF14D9E82AB692C /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		B3BABE49F8AF2E3F8F298ED981749718 /* UITextField+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITextField+QMUI.m"; sourceTree = "<group>"; };
@@ -1032,21 +1034,21 @@
 		B981047C0D2D6851A07E56289E501FC3 /* QMUITabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITabBarViewController.m; path = QMUIKit/QMUIMainFrame/QMUITabBarViewController.m; sourceTree = "<group>"; };
 		B988C2026165CCF9522FD8E45AFCBAE1 /* QMUIImagePickerPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerPreviewViewController.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerPreviewViewController.h; sourceTree = "<group>"; };
 		BABA35006B35DE103C2FE1CE66259649 /* NSString+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YYAdd.m"; path = "YYKit/Base/Foundation/NSString+YYAdd.m"; sourceTree = "<group>"; };
+		BC646D089D0033F6F7538E978C5D30A8 /* VehicleModelSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VehicleModelSelector.modulemap; sourceTree = "<group>"; };
 		BD305AC696D3D122EE84A9245904EB13 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
-		BD6F6A9DBD93E8A63043E8684E4B388A /* VehicleModelSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VehicleModelSelector.modulemap; sourceTree = "<group>"; };
 		BDA6E84B8DC24D27698D92A00FB686E7 /* Pods-VehicleModelSelector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VehicleModelSelector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BDB7B977D41B60E6E7DC79435DCB4FC3 /* QMUIZoomImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIZoomImageView.h; path = QMUIKit/QMUIComponents/QMUIZoomImageView.h; sourceTree = "<group>"; };
 		BEE8DBD2B077B90214507D957BD1F6AB /* QMUIImagePreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePreviewView.h; path = QMUIKit/QMUIComponents/QMUIImagePreviewView.h; sourceTree = "<group>"; };
 		BF1516B474A12C2F6DD98736989D8D6A /* QMUICollectionViewPagingLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICollectionViewPagingLayout.h; path = QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout.h; sourceTree = "<group>"; };
 		BF4E1FE3DB30B8FBE87760BA29FEB55B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		BF971F79556CB21B3C625FF4BCF1B472 /* NSData+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+YYAdd.m"; path = "YYKit/Base/Foundation/NSData+YYAdd.m"; sourceTree = "<group>"; };
+		C0260FD622D9D67C4834EE2AE439C489 /* VehicleBrandCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VehicleBrandCell.m; sourceTree = "<group>"; };
 		C04BF08E4FBA05599822FAB3C8D17C8A /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YYWebImage.h"; path = "YYKit/Image/Categories/UIButton+YYWebImage.h"; sourceTree = "<group>"; };
 		C09C37FE64E287E6838D6D82FAE9CDBC /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		C1CD5203CF5BF4996ACC6B6F43CBFCE4 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYKit/Model/YYClassInfo.m; sourceTree = "<group>"; };
 		C227B831DCD73D52F7F1130FE67A0E1A /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		C27143278335A44EE7BD96D98382688F /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYThreadSafeDictionary.m; path = YYKit/Utility/YYThreadSafeDictionary.m; sourceTree = "<group>"; };
 		C27BC983AAF3C82A9250CC5A8DB11FAD /* QMUIImagePreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePreviewView.m; path = QMUIKit/QMUIComponents/QMUIImagePreviewView.m; sourceTree = "<group>"; };
-		C28E2A7DCAFD48EE33990CD9E26CFC7B /* ADSVehicleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADSVehicleRequest.m; sourceTree = "<group>"; };
 		C3ED7DD29E289C755F62552DA43DAB96 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		C44227C1279DF0116EEA5DD67B08A07C /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
 		C454A7B5FB29498049140F24F8CEE389 /* UIViewController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIViewController+QMUI.h"; sourceTree = "<group>"; };
@@ -1077,7 +1079,6 @@
 		CD760A59EA6F797D99CDB7EA9B7230D0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		CD9049007C62357AEBF6ED35BC8F29BB /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		CDB5E2020F31B31ACFA5537F6B215B38 /* QMUIDialogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIDialogViewController.m; path = QMUIKit/QMUIComponents/QMUIDialogViewController.m; sourceTree = "<group>"; };
-		CDE326D37FA38B3B5E131FE8C3E3B535 /* ADSVehicleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADSVehicleModel.m; sourceTree = "<group>"; };
 		CED03F3FD60F3DAAF76D63011512C34E /* UIImage+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYAdd.h"; path = "YYKit/Base/UIKit/UIImage+YYAdd.h"; sourceTree = "<group>"; };
 		CFC755A9270F727B2E973D07E8D58C0E /* YYTextDebugOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextDebugOption.m; path = YYKit/Text/Component/YYTextDebugOption.m; sourceTree = "<group>"; };
 		D010364FC993E89BAF6B5D3B04920A87 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYKit/Text/String/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
@@ -1131,6 +1132,7 @@
 		E874FC66928C206A6B20389FAFBA00C0 /* Pods-VehicleModelSelector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VehicleModelSelector_Example-resources.sh"; sourceTree = "<group>"; };
 		E8A23CC4CA1575A3C822A15EA8313FD2 /* QMUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QMUIKit.modulemap; sourceTree = "<group>"; };
 		E960445E204E907DA382A99E855A2362 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E996FE34F1904BC40BCC970251BB8B57 /* VehicleModelSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VehicleModelSelector-dummy.m"; sourceTree = "<group>"; };
 		E9CE122FCB00D0C235AF9AB7BE71A640 /* QMUIStaticTableViewCellDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIStaticTableViewCellDataSource.h; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellDataSource.h; sourceTree = "<group>"; };
 		EA725D829B803AD11A818EBE7C5358BB /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		EA8521AB718B55264126E0FC25AF19BF /* YYSentinel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSentinel.h; path = YYKit/Utility/YYSentinel.h; sourceTree = "<group>"; };
@@ -1138,6 +1140,7 @@
 		EBCF3D782B6F730F1EB678FF26B43575 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		EBF71957A2248A8B407516FFDF894D3D /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		EC1CBDE1384CADB75794637BA1E9A29E /* YYAsyncLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAsyncLayer.m; path = YYKit/Utility/YYAsyncLayer.m; sourceTree = "<group>"; };
+		ECA2C627148E771BA6AD3A59ED97211A /* ADSVehicleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADSVehicleRequest.h; sourceTree = "<group>"; };
 		ECC400B658D6A8CFFBBECD534303589A /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		EDDDC74C2C8DDED6B0D76B79B7FD84EF /* QMUIEmotionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIEmotionView.m; path = QMUIKit/QMUIComponents/QMUIEmotionView.m; sourceTree = "<group>"; };
 		EF2C6FFEAF2163C62A22B2A8710F3ED8 /* YYTextMagnifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextMagnifier.m; path = YYKit/Text/Component/YYTextMagnifier.m; sourceTree = "<group>"; };
@@ -1159,6 +1162,7 @@
 		F66115FE240C27DD2962D75946E6E0DB /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+YYAdd.h"; path = "YYKit/Base/UIKit/UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
 		F6FEF73552E651C2EBFCD7FD021C8827 /* QMUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIButton.m; path = QMUIKit/QMUIComponents/QMUIButton.m; sourceTree = "<group>"; };
 		F73AF96C5321617452FB68B8060BA3A4 /* QMUITableViewProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITableViewProtocols.h; path = QMUIKit/QMUIComponents/QMUITableViewProtocols.h; sourceTree = "<group>"; };
+		F74F911BEE1B72048657B49AD6700747 /* ADSVehicleModelController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADSVehicleModelController.h; path = VehicleModelSelector/Classes/ADSVehicleModelController.h; sourceTree = "<group>"; };
 		F77B2AB29A89DCCEB504EA5EB3972420 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+YYText.h"; path = "YYKit/Text/String/NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
 		F7B389C08B8CA11189ACF18C3F5BC1B1 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		F7C383E70B533D4D9DC12E9732E73A4C /* QMUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILabel.h; path = QMUIKit/QMUIComponents/QMUILabel.h; sourceTree = "<group>"; };
@@ -1307,29 +1311,6 @@
 				AF60C83852C8B2D39456A6044CDC07E2 /* QMUITableView.m */,
 			);
 			name = QMUITableView;
-			sourceTree = "<group>";
-		};
-		0605728D5ED9D81259DF200DEB80C8E6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6BF5F2C90B4303CE70502576D31FBB57 /* VehicleModelSelector */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0712A6574AB81A1A8516FC75E7212D15 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8186C5DF17AD46274A7DC1E3B062E9A0 /* Info.plist */,
-				9CA69DA9FF0460D0BE5557455E0A9987 /* ResourceBundle-VehicleModelSelector-Info.plist */,
-				BD6F6A9DBD93E8A63043E8684E4B388A /* VehicleModelSelector.modulemap */,
-				5F880D313B44700775EFABFF58BA0C0D /* VehicleModelSelector.xcconfig */,
-				1EBB90DF86B5473055D468161110E690 /* VehicleModelSelector-dummy.m */,
-				0D2C5A7688A929CBEA479CF7B9CFD529 /* VehicleModelSelector-prefix.pch */,
-				574537A51B6AB5E8987EE4A8B451F0CD /* VehicleModelSelector-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VehicleModelSelector";
 			sourceTree = "<group>";
 		};
 		081A157859D88CA505A20FE122093B57 /* QMUITableViewProtocols */ = {
@@ -1727,6 +1708,21 @@
 			name = QMUIZoomImageView;
 			sourceTree = "<group>";
 		};
+		4D5DCBEFEA7D93CB6255806370CA4952 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				178E60DEB24F8C316AF1F552892EEB76 /* Info.plist */,
+				B189668D12E32A74C508D6A4365F5F4F /* ResourceBundle-VehicleModelSelector-Info.plist */,
+				BC646D089D0033F6F7538E978C5D30A8 /* VehicleModelSelector.modulemap */,
+				02FA126925F35D76823472388E9813F8 /* VehicleModelSelector.xcconfig */,
+				E996FE34F1904BC40BCC970251BB8B57 /* VehicleModelSelector-dummy.m */,
+				98B93F0385335DC101A81891913478F7 /* VehicleModelSelector-prefix.pch */,
+				3A12FF7279D735A97E5A4692A199473D /* VehicleModelSelector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VehicleModelSelector";
+			sourceTree = "<group>";
+		};
 		4ED42367D0AD7A621F58791126D08EA5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1750,6 +1746,16 @@
 			name = QMUIOrderedDictionary;
 			sourceTree = "<group>";
 		};
+		53E9CA929E016132520E9D3CD2B5F156 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2C627148E771BA6AD3A59ED97211A /* ADSVehicleRequest.h */,
+				A5BB3361AC83394F0A0A0D33A124596B /* ADSVehicleRequest.m */,
+			);
+			name = NetworkTool;
+			path = VehicleModelSelector/Classes/NetworkTool;
+			sourceTree = "<group>";
+		};
 		54820EE944A25D8A0E11F6AAA720A3ED /* QMUICellHeightCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -1757,14 +1763,6 @@
 				FF91F62C4E90E7E01FEAB9711A728230 /* QMUICellHeightCache.m */,
 			);
 			name = QMUICellHeightCache;
-			sourceTree = "<group>";
-		};
-		5725A6AD2A385C5189C79AF94F810614 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				545E883AD5EC536309FF9C04517AFFE2 /* Media.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		5F139083A454E7407DD8DD435941CF43 /* QMUINavigationTitleView */ = {
@@ -1783,6 +1781,16 @@
 				64FE3FF8BB191A5EB85FBAFBBC4222C6 /* QMUIMoreOperationController.m */,
 			);
 			name = QMUIMoreOperationController;
+			sourceTree = "<group>";
+		};
+		6103EB4126DF3C37E7B7DD13387FE7A5 /* VehicleModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A956A44B4D21B52ABD93B77F7A8A6E9 /* ADSVehicleModel.h */,
+				3F5513DA3344DA3EB0C97F8F2E44FFB7 /* ADSVehicleModel.m */,
+			);
+			name = VehicleModel;
+			path = VehicleModelSelector/Classes/VehicleModel;
 			sourceTree = "<group>";
 		};
 		632C4B983003AAA3740B1B88FAADDF78 /* Frameworks */ = {
@@ -1848,18 +1856,14 @@
 			name = QMUIMainFrame;
 			sourceTree = "<group>";
 		};
-		6BF5F2C90B4303CE70502576D31FBB57 /* VehicleModelSelector */ = {
+		74AE546F6D805328C5A36C403429EB50 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				A083183D08E39B0DA9C9B3ED9B473DA2 /* ADSVehicleModelController.h */,
-				9F6D11E683B0928BCB58FDC1FB75DB77 /* ADSVehicleModelController.m */,
-				DD629A76F4330D21A2390099D4121C02 /* NetworkTool */,
-				5725A6AD2A385C5189C79AF94F810614 /* Resources */,
-				0712A6574AB81A1A8516FC75E7212D15 /* Support Files */,
-				FC7DF017DDCF82DBECC6E9C5E40EE976 /* VehicleModel */,
+				189C9969C520D53DEB44293DFAD53AF6 /* VehicleBrandCell.h */,
+				C0260FD622D9D67C4834EE2AE439C489 /* VehicleBrandCell.m */,
 			);
-			name = VehicleModelSelector;
-			path = ../..;
+			name = Cells;
+			path = VehicleModelSelector/Classes/Cells;
 			sourceTree = "<group>";
 		};
 		76975F6A662C7E6D77CECC06A2F5CBCE /* Frameworks */ = {
@@ -1903,7 +1907,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0605728D5ED9D81259DF200DEB80C8E6 /* Development Pods */,
+				C933C90A09220A240C0E5C0652401C91 /* Development Pods */,
 				76975F6A662C7E6D77CECC06A2F5CBCE /* Frameworks */,
 				C55CB911863C2806745FB2D7DCE595AD /* Pods */,
 				CAF5D6A6E0930C6E2ED4C5923B3B4EF8 /* Products */,
@@ -1918,6 +1922,14 @@
 				EDDDC74C2C8DDED6B0D76B79B7FD84EF /* QMUIEmotionView.m */,
 			);
 			name = QMUIEmotionView;
+			sourceTree = "<group>";
+		};
+		7E7BC705102656BCE917CF5F1C9578FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AEED7A05F0346F18708F1856BDF99CF /* Media.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7F9A190E43951C11348E57EEE4E3E7A7 /* QMUIImagePickerLibrary */ = {
@@ -2304,6 +2316,14 @@
 			name = QMUIPopupContainerView;
 			sourceTree = "<group>";
 		};
+		C933C90A09220A240C0E5C0652401C91 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F8A776A39CC9527BFC0194B06F3764 /* VehicleModelSelector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CAF5D6A6E0930C6E2ED4C5923B3B4EF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -2329,6 +2349,21 @@
 			name = QMUIAlertController;
 			sourceTree = "<group>";
 		};
+		D6F8A776A39CC9527BFC0194B06F3764 /* VehicleModelSelector */ = {
+			isa = PBXGroup;
+			children = (
+				F74F911BEE1B72048657B49AD6700747 /* ADSVehicleModelController.h */,
+				353338D390F5F5FF0401B3A9C925816C /* ADSVehicleModelController.m */,
+				74AE546F6D805328C5A36C403429EB50 /* Cells */,
+				53E9CA929E016132520E9D3CD2B5F156 /* NetworkTool */,
+				7E7BC705102656BCE917CF5F1C9578FE /* Resources */,
+				4D5DCBEFEA7D93CB6255806370CA4952 /* Support Files */,
+				6103EB4126DF3C37E7B7DD13387FE7A5 /* VehicleModel */,
+			);
+			name = VehicleModelSelector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		DC421E790482DDFCB7B0D50BF3E53603 /* QMUIDialogViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -2345,16 +2380,6 @@
 				5D8534B144238E46C4FF8659FF67AD4F /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		DD629A76F4330D21A2390099D4121C02 /* NetworkTool */ = {
-			isa = PBXGroup;
-			children = (
-				92B0B6B122C790FCE67787DABD24589C /* ADSVehicleRequest.h */,
-				C28E2A7DCAFD48EE33990CD9E26CFC7B /* ADSVehicleRequest.m */,
-			);
-			name = NetworkTool;
-			path = VehicleModelSelector/Classes/NetworkTool;
 			sourceTree = "<group>";
 		};
 		DE81C4DD9F916ECF5A68C98C1410C7E4 /* QMUIComponents */ = {
@@ -2466,16 +2491,6 @@
 				3237B54E6CB1A23096AB09D5CF6A113A /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		FC7DF017DDCF82DBECC6E9C5E40EE976 /* VehicleModel */ = {
-			isa = PBXGroup;
-			children = (
-				26D040BE7C5FBF0688E584D4F3C7B3A0 /* ADSVehicleModel.h */,
-				CDE326D37FA38B3B5E131FE8C3E3B535 /* ADSVehicleModel.m */,
-			);
-			name = VehicleModel;
-			path = VehicleModelSelector/Classes/VehicleModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2600,14 +2615,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4386C8098D0E8E511404CBFD2605E511 /* Headers */ = {
+		83EB88AD1E994B84FF61CADFA88FD5E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5EE6D7A9AF2CCDEAE66152D558D412 /* ADSVehicleModel.h in Headers */,
-				579B5A9316F02BF18837A0E27551238E /* ADSVehicleModelController.h in Headers */,
-				8F665491D3E7F371FDFAF0BB51603C36 /* ADSVehicleRequest.h in Headers */,
-				F1B5A81E11D2D0AFFA758C51610607EF /* VehicleModelSelector-umbrella.h in Headers */,
+				C38BDCAE27BB51ED6322773A2A58D586 /* ADSVehicleModel.h in Headers */,
+				4E5B138C0548AE5A31D74A00D6521A32 /* ADSVehicleModelController.h in Headers */,
+				B04D834556074C2A03B94C690D6EAB59 /* ADSVehicleRequest.h in Headers */,
+				22CBDAEB2AA425361BD689B657BFB278 /* VehicleBrandCell.h in Headers */,
+				254CE8DBF51C84A1204B24D2030488E5 /* VehicleModelSelector-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2815,10 +2831,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAD031E21B241E3158FC558FA4ACB34F /* Build configuration list for PBXNativeTarget "VehicleModelSelector" */;
 			buildPhases = (
-				A91F1CBC8CEDD2E9DF0847DB3CE9CA09 /* Sources */,
+				8F258A753D8231580A017FFDB16403EC /* Sources */,
 				44D38FB69EFED50C8C7D98AD8BF9C0C1 /* Frameworks */,
 				D0456F7EDB381A688EBA3724B53C1BB8 /* Resources */,
-				4386C8098D0E8E511404CBFD2605E511 /* Headers */,
+				83EB88AD1E994B84FF61CADFA88FD5E9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -3218,6 +3234,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F258A753D8231580A017FFDB16403EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB34A1F87F6F576E53D21878B4138DF /* ADSVehicleModel.m in Sources */,
+				4CECB997F37F6EE9D875AEB1A43515A3 /* ADSVehicleModelController.m in Sources */,
+				84C35CE7CC8E36ED20B179EC5D83132B /* ADSVehicleRequest.m in Sources */,
+				7B31F64822E31160AA390078A091196E /* VehicleBrandCell.m in Sources */,
+				A2881703853EA1231068DD4D6D38AF09 /* VehicleModelSelector-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D2DB5AFD8472B3EACB8E0784DDE849E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3308,17 +3336,6 @@
 				094605F6046251A1F787E6D472FE08B2 /* UIView+QMUI.m in Sources */,
 				72FDF061B3F7218ACF7D30E3C81EB39F /* UIViewController+QMUI.m in Sources */,
 				135964F2B9B329254C65BE8B97B0AA12 /* UIWindow+QMUI.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A91F1CBC8CEDD2E9DF0847DB3CE9CA09 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4294D4C91BD97E5110E1C3A351D82BA0 /* ADSVehicleModel.m in Sources */,
-				EF7DCF10539EF58B0C2C2584B3BB309E /* ADSVehicleModelController.m in Sources */,
-				7BEB82BFE8F4B6C4CDA3C7E11843A049 /* ADSVehicleRequest.m in Sources */,
-				85FC0505831566CC19B5E81DF0A65F57 /* VehicleModelSelector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3596,7 +3613,7 @@
 		};
 		529D60507AC40F5B7A233F3C7AE2F781 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F880D313B44700775EFABFF58BA0C0D /* VehicleModelSelector.xcconfig */;
+			baseConfigurationReference = 02FA126925F35D76823472388E9813F8 /* VehicleModelSelector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VehicleModelSelector";
@@ -3612,7 +3629,7 @@
 		};
 		5ABAF250FB49D4B7BE6E2B9D6441A25B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F880D313B44700775EFABFF58BA0C0D /* VehicleModelSelector.xcconfig */;
+			baseConfigurationReference = 02FA126925F35D76823472388E9813F8 /* VehicleModelSelector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3731,7 +3748,7 @@
 		};
 		77D835910B2A4A38DAEA580AB0FB70AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F880D313B44700775EFABFF58BA0C0D /* VehicleModelSelector.xcconfig */;
+			baseConfigurationReference = 02FA126925F35D76823472388E9813F8 /* VehicleModelSelector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4029,7 +4046,7 @@
 		};
 		F30F0C0C1FAE3923AF6E99D44482AE0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F880D313B44700775EFABFF58BA0C0D /* VehicleModelSelector.xcconfig */;
+			baseConfigurationReference = 02FA126925F35D76823472388E9813F8 /* VehicleModelSelector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VehicleModelSelector";

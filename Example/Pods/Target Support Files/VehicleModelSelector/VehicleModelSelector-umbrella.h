@@ -11,6 +11,7 @@
 #endif
 
 #import "ADSVehicleModelController.h"
+#import "VehicleBrandCell.h"
 #import "ADSVehicleRequest.h"
 #import "ADSVehicleModel.h"
 
