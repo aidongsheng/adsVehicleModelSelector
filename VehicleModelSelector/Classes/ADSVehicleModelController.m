@@ -10,6 +10,7 @@
 #import "VehicleBrandCell.h"
 #import "Masonry.h"
 #import "ADSVehicleModel.h"
+#import "YYKit.h"
 
 @interface ADSVehicleModelController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -17,11 +18,17 @@
 
 @end
 
+static NSString * const cellReuseID = @"cell";
+
 @implementation ADSVehicleModelController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
     dispatch_async(dispatch_get_global_queue(0, DISPATCH_QUEUE_PRIORITY_HIGH), ^{
         [self initData];
@@ -30,14 +37,13 @@
         });
     });
 }
-
 - (void)initData
 {
     ADSALLBrandRequest * brandRequest = [[ADSALLBrandRequest alloc]init];
     [brandRequest startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
         NSLog(@"%@",request.responseString);
-        
-        NSArray * brands = [request.responseJSONObject objectForKey:@"brand"];;
+        NSDictionary * brandsInfo = [self parseJSONStringToNSDictionary:request.responseString];
+        NSArray * brands = brandsInfo[@"brand"];
         for (int index = 0; index < brands.count; index++) {
             NSDictionary * brand = brands[index];
             NSString * brandName = brand[@"name"];
@@ -45,9 +51,16 @@
             NSDictionary * brandInfo = [NSDictionary dictionaryWithObjectsAndKeys:brandName,@"brand_name",brandIconUrl,@"iconUrl", nil];
             [[VehicleBrand shareInstance].allBrands addObject:brandInfo];
         }
+        [_vehicleTableView reloadData];
     } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
         NSLog(@"%@",request.error);
     }];
+}
+
+-(NSDictionary *)parseJSONStringToNSDictionary:(NSString *)JSONString {
+    NSData *JSONData = [JSONString dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *responseJSON = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingMutableLeaves error:nil];
+    return responseJSON;
 }
 
 - (void)initSubViews
@@ -58,10 +71,14 @@
     _vehicleTableView.dataSource = self;
     [self.view addSubview:_vehicleTableView];
     [_vehicleTableView registerClass:[VehicleBrandCell class]
-              forCellReuseIdentifier:NSStringFromClass([VehicleBrandCell class])];
+              forCellReuseIdentifier:cellReuseID];
     [_vehicleTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.right.mas_equalTo(0);
+        make.left.equalTo(self.view.mas_left);
+        make.right.equalTo(self.view.mas_right);
+        make.bottom.equalTo(self.view.mas_bottom);
+        make.top.equalTo(self.view.mas_top);
     }];
+    
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -74,18 +91,13 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    VehicleBrandCell * cell = (VehicleBrandCell *)[tableView dequeueReusableCellWithIdentifier:NSStringFromClass([VehicleBrandCell class])];
+    VehicleBrandCell * cell = (VehicleBrandCell *)[tableView dequeueReusableCellWithIdentifier:cellReuseID];
     if (!cell) {
-        cell = [[VehicleBrandCell alloc]initWithStyle:UITableViewCellStyleDefault
-                                     reuseIdentifier:NSStringFromClass([VehicleBrandCell class])];
+        cell = [[VehicleBrandCell alloc]initWithStyle:UITableViewCellStyleValue1
+                                     reuseIdentifier:cellReuseID];
     }
-    [self configCell:cell forRowAtIndexPath:indexPath];
-    return cell;
-}
-
-- (void)configCell:(VehicleBrandCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
     [cell initCellWithData:[VehicleBrand shareInstance].allBrands[indexPath.row]];
+    return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

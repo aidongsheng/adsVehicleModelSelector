@@ -22,14 +22,20 @@ static VehicleBrand * instance = nil;
     return instance;
 }
 
-- (NSMutableArray<NSDictionary *> *)allBrands
+- (instancetype)init
 {
-    if (_allBrands == nil) {
+    if (self = [super init]) {
         _allBrands = [[NSMutableArray alloc]init];
     }
-    return _allBrands;
+    return self;
 }
-
+//- (NSMutableArray<NSDictionary *> *)allBrands
+//{
+//    if (_allBrands) {
+//        _allBrands = [[NSMutableArray alloc]init];
+//    }
+//    return _allBrands;
+//}
 @end
 
 @implementation VehicleSeries

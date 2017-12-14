@@ -20,21 +20,21 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        
+        [self setupSubViews];
     }
     return self;
 }
 
-- (void)layoutSubviews
+- (void)setupSubViews
 {
-    [super layoutSubviews];
     _brandIconView = [[UIImageView alloc]init];
     _brandLabel = [[QMUILabel alloc]init];
     _brandLabel.textAlignment = NSTextAlignmentLeft;
-    [_brandLabel setTextColor:[UIColor lightGrayColor]];
+    [_brandLabel setTextColor:[UIColor blackColor]];
     [_brandLabel setFont:[UIFont fontWithName:@"PingFangSC-Regular" size:15]];
     [self.contentView addSubview:_brandIconView];
     [self.contentView addSubview:_brandLabel];
+    
     [_brandIconView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(self.contentView.mas_centerY);
         make.left.equalTo(self.contentView.mas_left).offset(10);
@@ -47,25 +47,24 @@
         make.right.equalTo(self.contentView.mas_right);
     }];
 }
+
 - (void)initCellWithData:(NSDictionary *)data
 {
-    if (data) {
-        
-    }
     NSURL * iconUrl = [NSURL URLWithString:data[@"iconUrl"]];
     NSString * brandName = data[@"brand_name"];
     
     _brandLabel.text = brandName;
     
-    dispatch_async(dispatch_get_global_queue(0, DISPATCH_QUEUE_PRIORITY_BACKGROUND), ^{
-        _brandIconView.image = [UIImage imageNamed:@"default"];
-        // 获取网络图片数据
-        NSData * brandIconData = [NSData dataWithContentsOfURL:iconUrl];
-        UIImage * brandIcon = [UIImage imageWithData:brandIconData];
-        
-        dispatch_async(dispatch_get_main_queue(), ^{
-            _brandIconView.image = brandIcon;
-        });
-    });
+    
+//    dispatch_async(dispatch_get_global_queue(0, DISPATCH_QUEUE_PRIORITY_BACKGROUND), ^{
+//        _brandIconView.image = [UIImage imageNamed:@"default"];
+//        // 获取网络图片数据
+//        NSData * brandIconData = [NSData dataWithContentsOfURL:iconUrl];
+//        UIImage * brandIcon = [UIImage imageWithData:brandIconData];
+//        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            _brandIconView.image = brandIcon;
+//        });
+//    });
 }
 @end
