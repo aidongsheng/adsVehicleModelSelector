@@ -6,26 +6,20 @@
 //
 
 #import "ADSVehicleRequest.h"
-#import <YTKNetwork/YTKNetworkConfig.h>
 
-@implementation ADSVehicleRequest{
-    NSString * _brand;
-    NSString * _series;
-    NSString * _year;
-}
 
-- (id)initWithBrand:(NSString *)brand series:(NSString *)series{
-    self = [super init];
-    if(self){
-        _brand = brand;
-        _series = series;
+@implementation ADSALLBrandRequest
+- (id)init
+{
+    if (self = [super init]) {
+        
     }
     return self;
 }
 
 - (NSString *)baseUrl
 {
-    return @"http://api.bsz.zj.cn";
+    return @"http://192.168.0.62:8001";
 }
 
 - (NSString *)requestUrl
@@ -48,24 +42,16 @@
     return YTKRequestMethodGET;
 }
 
-//- (id)jsonValidator
-//{
-//    return @{
-//             @"year":[NSArray class]
-//             };
-//}
-
-
-- (id)requestArgument
+- (id)jsonValidator
 {
     return @{
-             @"bd":_brand,
-             @"se":_series
+             @"brand":[NSArray class]
              };
 }
+
 - (NSInteger)cacheTimeInSeconds
 {
-    return 3;
+    return 0;
 }
 
 - (BOOL)useCDN
@@ -75,9 +61,60 @@
 
 - (nullable NSDictionary<NSString *, NSString *> *)requestHeaderFieldValueDictionary
 {
-    
     return @{
              @"Content-Type":@"text/plain;charset=utf8"
              };
 }
 @end
+
+
+@implementation ADSBrandSeriesRequest
+- (id)initWithBrand:(NSString *)brand
+{
+    if (self = [super init]) {
+        _brand = brand;
+    }
+    return self;
+}
+- (id)jsonValidator
+{
+    return @{
+             @"series":[NSArray class]
+             };
+}
+
+- (id)requestArgument
+{
+    return @{
+             @"bd":_brand,
+             };
+}
+
+@end
+
+@implementation ADSSeriesYearsRequest
+- (id)initWithBrand:(NSString *)brand series:(NSString *)series
+{
+    if (self = [super init]) {
+        _brand = brand;
+        _series = series;
+    }
+    return self;
+}
+- (id)jsonValidator
+{
+    return @{
+             @"year":[NSArray class]
+             };
+}
+
+- (id)requestArgument
+{
+    return @{
+             @"bd":_brand,
+             @"se":_series
+             };
+}
+
+@end
+

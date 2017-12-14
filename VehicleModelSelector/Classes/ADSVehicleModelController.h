@@ -5,8 +5,8 @@
 //  Created by lijun mou on 2017/12/13.
 //
 
-#import <QMUIKit/QMUIKit.h>
+#import <UIKit/UIKit.h>
 
-@interface ADSVehicleModelController : QMUICommonTableViewController
+@interface ADSVehicleModelController : UIViewController
 
 @end

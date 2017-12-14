@@ -7,12 +7,16 @@
 //
 
 #import "adsAppDelegate.h"
+#import "ADSVehicleModelController.h"
 
 @implementation adsAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    ADSVehicleModelController * controller = [[ADSVehicleModelController alloc]init];
+    _window.rootViewController = controller;
+    [_window makeKeyAndVisible];
     return YES;
 }
 

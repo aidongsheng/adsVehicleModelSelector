@@ -7,6 +7,19 @@
 
 #import "ADSVehicleModel.h"
 
-@implementation ADSVehicleModel
+@implementation VehicleBrand
+
+static VehicleBrand * instance = nil;
+
++ (VehicleBrand *)shareInstance
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (!instance) {
+            instance = [[VehicleBrand alloc]init];
+        }
+    });
+    return instance;
+}
 
 @end
